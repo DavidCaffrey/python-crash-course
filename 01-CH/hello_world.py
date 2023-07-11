@@ -27,3 +27,51 @@ print(netflix_url)
 #####################################################################
 # up to this point is page 61 at top of the page chrome pdf page
 #####################################################################
+
+number_large = 14_000_000_000
+
+print(number_large)
+
+THIS_IS_A_CONSTANT = 456
+# COMMENT
+
+my_bike_list = ["orange", "specialized", "canondale"]
+
+print(f"{my_bike_list[1].title()}")
+my_bike_list[1] = "specialized adaptation"
+print(f"{my_bike_list[1].title()}")
+my_bike_list.append("v bike")
+print(my_bike_list)
+my_bike_list.insert(0, "penny fahing")
+print(my_bike_list)
+# removes and deletes by index
+del my_bike_list[4]
+print(my_bike_list)
+# pop removes for use
+my_bike = my_bike_list.pop()
+print(my_bike)
+print(my_bike_list)
+next_bike = my_bike_list.pop(1)
+print(my_bike_list)
+# to remove by value
+my_bike_list.remove("penny fahing")
+print(my_bike_list)
+my_bike_list.append("v bike")
+my_bike_list.append("x bike")
+my_bike_list.append("w bike")
+my_bike_list.append("z bike")
+print(my_bike_list)
+# delete by using another variable name
+item_to_delete = "x bike"
+my_bike_list.remove(item_to_delete)
+print(my_bike_list)
+my_bike_list.insert(3, "wicked bike")
+print(my_bike_list)
+# sort is permanently changing the list
+print(my_bike_list.sort())
+print(my_bike_list)
+print(my_bike_list.sort(reverse=True))
+print(my_bike_list)
+# sorted(list) is temporary
+print(sorted(my_bike_list))
+print(my_bike_list)
