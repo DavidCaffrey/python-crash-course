@@ -75,3 +75,41 @@ print(my_bike_list)
 # sorted(list) is temporary
 print(sorted(my_bike_list))
 print(my_bike_list)
+print(my_bike_list.reverse())
+print(my_bike_list)
+
+print(len(my_bike_list))
+print(my_bike_list[len(my_bike_list) - 3])
+
+# CHAPTER 4
+food = ["pizza", "orange", "apple", "banana"]
+
+for item in food:
+    print(item)
+
+for num in range(1, 1001):
+    print(num)
+
+
+my_nums = list(range(10))
+print(my_nums)
+# third parameter denotes the step size
+for num in range(1, 1001, 3):
+    print(num)
+
+squares = []
+for i in range(1, 11):
+    squared = i**2
+    squares.append(squared)
+
+print(squares)
+
+# LIST COMPREHENSION
+
+square2 = [value**3 for value in range(1, 11)]
+print(square2)
+print(square2[2:5])
+print(square2[2:])
+print(square2[:5])
+
+# CHAPTER 4 page 100 pdf page 62 of book
