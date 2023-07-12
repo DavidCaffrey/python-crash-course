@@ -113,3 +113,5 @@ print(square2[2:])
 print(square2[:5])
 
 # CHAPTER 4 page 100 pdf page 62 of book
+# Copy entire list
+new_squared = square2[:]
