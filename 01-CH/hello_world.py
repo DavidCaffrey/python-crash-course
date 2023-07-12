@@ -115,3 +115,25 @@ print(square2[:5])
 # CHAPTER 4 page 100 pdf page 62 of book
 # Copy entire list
 new_squared = square2[:]
+
+my_array = [23, 45, 78, 62, 96, 140, 56, 76]
+check = 96
+for it in my_array:
+    if it == check:
+        print("found the key")
+    else:
+        print("key not found")
+
+print(23 in my_array)
+check_value = 46
+
+if check_value not in my_array:
+    print("your value is not in the list of values")
+
+if check_value == 45:
+    print("your value is 45")
+elif check_value == 47:
+    print("your value is 47")
+else:
+    print("your value must be 46")
+#  PDF page 121 book page 83
