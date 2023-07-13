@@ -145,13 +145,13 @@ if requested_data:
     print(len(requested_data))
 else:
     print("sorry the data you requested has no entries")
-    
+
 yourName = input("please enter your name")
 
 print(yourName)
 
 meaning = input("Whats the meaning of life ")
-print(int(meaning) + 58 )
-    
-# Page 16 of book AUTOMATE THE BORING STUFF
-# CHAPTER 8 Dictonary 
+print(int(meaning) + 58)
+
+# Page 37 of book AUTOMATE THE BORING STUFF
+# CHAPTER 8 Dictonary
