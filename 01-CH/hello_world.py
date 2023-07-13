@@ -137,3 +137,21 @@ elif check_value == 47:
 else:
     print("your value must be 46")
 #  PDF page 121 book page 83
+
+
+requested_data = []
+
+if requested_data:
+    print(len(requested_data))
+else:
+    print("sorry the data you requested has no entries")
+    
+yourName = input("please enter your name")
+
+print(yourName)
+
+meaning = input("Whats the meaning of life ")
+print(int(meaning) + 58 )
+    
+# Page 16 of book AUTOMATE THE BORING STUFF
+# CHAPTER 8 Dictonary 
