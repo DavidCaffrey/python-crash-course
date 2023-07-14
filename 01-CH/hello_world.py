@@ -153,5 +153,5 @@ print(yourName)
 meaning = input("Whats the meaning of life ")
 print(int(meaning) + 58)
 
-# Page 37 of book AUTOMATE THE BORING STUFF
+# Page 67 of book AUTOMATE THE BORING STUFF
 # CHAPTER 8 Dictonary
