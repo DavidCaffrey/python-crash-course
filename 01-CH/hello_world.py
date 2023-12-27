@@ -42,7 +42,7 @@ my_bike_list[1] = "specialized adaptation"
 print(f"{my_bike_list[1].title()}")
 my_bike_list.append("v bike")
 print(my_bike_list)
-my_bike_list.insert(0, "penny fahing")
+my_bike_list.insert(0, "penny farthing")
 print(my_bike_list)
 # removes and deletes by index
 del my_bike_list[4]
@@ -54,7 +54,7 @@ print(my_bike_list)
 next_bike = my_bike_list.pop(1)
 print(my_bike_list)
 # to remove by value
-my_bike_list.remove("penny fahing")
+my_bike_list.remove("penny farthing")
 print(my_bike_list)
 my_bike_list.append("v bike")
 my_bike_list.append("x bike")
